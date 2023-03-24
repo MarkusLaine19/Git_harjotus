@@ -3,7 +3,24 @@ body {
   }
   h1 {
     color: rgb(249, 245, 245);
+    font-size: 20px;
   }
   p {
     color: rgb(247, 242, 242);
+    font-size: 12px;
   }
+  ol {
+    color:rgb(245, 229, 8)
+  }
+  ul {
+    color:rgb(248, 232, 6)
+  }
+.myDiv{
+  border: 2px dotted rgb(248, 246, 249);
+  background-color: rgb(77, 14, 97);
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  font-size: 13px;
+}
+
