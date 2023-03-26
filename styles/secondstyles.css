@@ -8,3 +8,8 @@ body {
   p {
     color: rgb(247, 242, 242);
     font-size: 12px;
+  }
+  label {
+    color: aliceblue;
+    }
+
