@@ -2,14 +2,34 @@ body {
     background-color: rgb(6, 2, 22);
   }
   h1 {
-    color: rgb(249, 245, 245);
+    color: rgb(5, 17, 59);
     font-size: 20px;
+    border: 5px solid white;
+    width: 130px;
+    background-color: rgb(246, 245, 248);
+    border-radius: 15px;
   }
   p {
-    color: rgb(247, 242, 242);
-    font-size: 12px;
+
   }
   label {
     color: aliceblue;
     }
+   #nallepuh {
+   margin-left: 700px;
+   } 
+   #akuankka {
+    margin-left: 540px;
+   }
+   #mcqueen {
+   
+   }
+   .joku {
+    color: rgb(247, 242, 242);
+    font-size: 15px;
+    border: 5px solid rgb(248, 245, 248);
+    width: 130px;
+    background-color: blueviolet;
+    border-radius: 15px;
+   }
 

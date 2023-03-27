@@ -1,19 +1,22 @@
 body {
-  background-image:
+     background-image: url(../kuvat/mcqueen.jpg);
+     background-size: cover;
   }
   h1 {
     color: rgb(249, 245, 245);
-    font-size: 20px;
+    font-size: 30px;
   }
   p {
     color: rgb(247, 242, 242);
-    font-size: 12px;
+    font-size: 11px;
   }
   ol {
-    color:rgb(245, 229, 8)
+    font-size: 20px;
+    color:rgb(10, 9, 0)
   }
   ul {
-    color:rgb(248, 232, 6)
+    font-size: 20px;
+    color:rgb(9, 8, 0)
   }
 .myDiv{
   border: 2px dotted rgb(248, 246, 249);
@@ -22,5 +25,9 @@ body {
   width: 100px;
   height: 100px;
   font-size: 13px;
+}
+a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
 }
 
