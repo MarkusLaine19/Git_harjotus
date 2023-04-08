@@ -1,0 +1,72 @@
+.heading {
+    text-align: center;
+    padding: 20px; /* Add padding around the heading */
+    background-color: black; /* Set the background color to black */
+    border: 2px solid black; /* Set the border color and width */
+  }
+  
+  .heading h1 {
+    color: white; /* Set the text color to white */
+    margin: 0; /* Remove default margin on heading */
+  }
+
+.nav2 {
+  background-color: #f2f2f2; /* Set the background color for the navigation */
+}
+
+.nav2 ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.nav2 li {
+  display: inline-block; /* Display the navigation items in a row */
+}
+
+.nav2 a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #000; /* Set the text color for the navigation items */
+}
+
+.nav2 a:hover {
+  background-color: #e0e0e0; /* Add a hover effect for the navigation items */
+}
+.container {
+    overflow: hidden;
+}
+.nav {
+    float: left; 
+    width: 200px; 
+  }
+  .nav ul {
+    list-style-type: none; 
+    padding: 0; 
+  }
+  .nav li {
+    margin-bottom: 10px;
+  }
+  .nav a {
+    display: block; 
+    padding: 10px; 
+    text-decoration: none; 
+  }
+  .content {
+    /* Styles for the main content of your website */
+    overflow: hidden; /* Clearfix to contain floated elements */
+  }
+  .column {
+    float: left; /* Float the columns to the left */
+    width: 50%; /* Set the width of each column to 50% */
+    padding: 20px; /* Add some padding to the columns */
+    box-sizing: border-box; /* Include padding in the total width of the columns */
+  }
+  .column h2 {
+    margin-top: 0; /* Remove default margin on heading */
+  }
+  .column p {
+    margin-bottom: 0; /* Remove default margin on paragraph */
+  }
