@@ -1,17 +1,18 @@
 .heading {
     text-align: center;
-    padding: 20px; /* Add padding around the heading */
-    background-color: black; /* Set the background color to black */
-    border: 2px solid black; /* Set the border color and width */
+    padding: 30px;
+    background-color: black;
+    border: 4px solid rgb(170, 140, 178);
   }
   
   .heading h1 {
-    color: white; /* Set the text color to white */
-    margin: 0; /* Remove default margin on heading */
+    color: white;
+    margin: 0;
+    font-family: serif;
   }
 
 .nav2 {
-  background-color: #f2f2f2; /* Set the background color for the navigation */
+  background-color: #b8b3b3;
 }
 
 .nav2 ul {
@@ -22,51 +23,60 @@
 }
 
 .nav2 li {
-  display: inline-block; /* Display the navigation items in a row */
+  display: inline-block;
 }
 
 .nav2 a {
   display: block;
-  padding: 10px;
-  text-decoration: none;
-  color: #000; /* Set the text color for the navigation items */
+  padding: 15px;
+  text-decoration-line: underline;
+  color: #000;
 }
 
 .nav2 a:hover {
-  background-color: #e0e0e0; /* Add a hover effect for the navigation items */
+  color: red;
 }
+
 .container {
     overflow: hidden;
 }
 .nav {
     float: left; 
-    width: 200px; 
+    width: 250px; 
+    height: 760px;
+    background-color: rgb(170, 140, 178);
   }
   .nav ul {
     list-style-type: none; 
-    padding: 0; 
+    text-align: center;
+    padding: 0px;
+
   }
   .nav li {
     margin-bottom: 10px;
   }
   .nav a {
     display: block; 
-    padding: 10px; 
-    text-decoration: none; 
+    padding: 20px; 
+    text-decoration-line: underline; 
+    color: black;
   }
+  .nav a:hover {
+    color: red;
+  }
+
   .content {
-    /* Styles for the main content of your website */
-    overflow: hidden; /* Clearfix to contain floated elements */
+    overflow: hidden;
   }
   .column {
-    float: left; /* Float the columns to the left */
-    width: 50%; /* Set the width of each column to 50% */
-    padding: 20px; /* Add some padding to the columns */
-    box-sizing: border-box; /* Include padding in the total width of the columns */
+    float: left; 
+    width: 50%; 
+    padding: 35px; 
+    box-sizing: border-box; 
   }
   .column h2 {
-    margin-top: 0; /* Remove default margin on heading */
+    margin-top: 0; 
   }
   .column p {
-    margin-bottom: 0; /* Remove default margin on paragraph */
+    margin-bottom: 0; 
   }
